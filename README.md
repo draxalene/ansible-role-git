@@ -1,7 +1,7 @@
 Role Name
 =========
 
-Hopla.cloud role for ansible to apache2, php-fpm, Memcached.
+Hopla.cloud role for ansible to install git.
 
 Requirements
 ------------
