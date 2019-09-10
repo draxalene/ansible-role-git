@@ -1,0 +1,7 @@
+---
+# tasks file for hoplacloud.git
+
+- name: Install latest version of GIT
+  apt:
+    name: git
+    state: latest
