@@ -1,7 +1,7 @@
 ---
 # tasks file for hoplacloud.git
+- include: RedHat.yml
+  when: ansible_os_family == 'RedHat'
 
-- name: Install latest version of GIT
-  apt:
-    name: git
-    state: latest
+- include: Debian.yml
+  when: ansible_os_family == 'Debian'

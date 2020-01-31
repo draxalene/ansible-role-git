@@ -1,0 +1,5 @@
+---
+- name: Ensure git is installed
+  yum:
+    name: git
+    state: latest
