@@ -13,6 +13,10 @@ galaxy_info:
       versions:
         - bionic
         - xenial
+    - name: EL
+      versions:
+        - 7
+        
   galaxy_tags:
     - git
 
